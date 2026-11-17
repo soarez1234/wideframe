@@ -1,0 +1,128 @@
+body {
+    background-color: #222222;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+.topo {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo h1 {
+    color: orange;
+}
+
+.menu {
+    background-color: #444444;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.banner {
+    background-color: #333333;
+    text-align: center;
+    padding: 50px;
+}
+
+.banner h2 {
+    color: orange;
+}
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaques {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaques h2 {
+    color: orange;
+}
+
+/* GRID */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+/* CARDS */
+
+.card {
+    background-color: #444444;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: orange;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.final {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.final h2 {
+    color: orange;
+}
+
+.final a {
+    color: orange;
+}
+
+.rodape {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background-color: #333333;
+}
